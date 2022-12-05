@@ -1474,6 +1474,8 @@ local Items = {}
 			TextLabe_DropDown.Text =  text.." : "..tostring(table.concat(MultiDropdownTable,","))
 		end
         
+		TextLabe_DropDown.Text = tostring(text).." :"
+
 		Button_DropDown.MouseButton1Click:Connect(function()
 			if tablefound(MultiDropdownTable,v) == false then 
 				table.insert(MultiDropdownTable,v)
