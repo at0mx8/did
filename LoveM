@@ -1063,8 +1063,8 @@ local Items = {}
 		Scrolling_Dropdown.BackgroundTransparency = 1
 		Scrolling_Dropdown.BorderSizePixel = 0
 		Scrolling_Dropdown.AnchorPoint = Vector2.new(0.5,0.5)
-		Scrolling_Dropdown.Position = UDim2.new(0.4715, 0, 3.125, 0)
-		Scrolling_Dropdown.Size = UDim2.new(0, 210, 0, 125)
+		Scrolling_Dropdown.Position = UDim2.new(0.5, 0, 3.125, 0)
+		Scrolling_Dropdown.Size = UDim2.new(0, 215, 0, 125)
         Scrolling_Dropdown.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
         Scrolling_Dropdown.CanvasSize = UDim2.new(0, 0, 0, 0)
         Scrolling_Dropdown.ScrollBarThickness = 4
@@ -1082,7 +1082,7 @@ local Items = {}
 		UIPaddinglist.Name = "UIPaddinglist"
 		UIPaddinglist.Parent = Scrolling_Dropdown
 		UIPaddinglist.PaddingTop = UDim.new(0, 7)
-        UIPaddinglist.PaddingLeft = UDim.new(0, 0)
+        UIPaddinglist.PaddingLeft = UDim.new(0, 3)
 
         local Dropdown = false
         Dropdown_Tween = true
@@ -1371,8 +1371,8 @@ local Items = {}
 		Scrolling_Dropdown.BackgroundTransparency = 1
 		Scrolling_Dropdown.BorderSizePixel = 0
 		Scrolling_Dropdown.AnchorPoint = Vector2.new(0.5,0.5)
-		Scrolling_Dropdown.Position = UDim2.new(0.4715, 0, 3.125, 0)
-		Scrolling_Dropdown.Size = UDim2.new(0, 210, 0, 125)
+		Scrolling_Dropdown.Position = UDim2.new(0.5, 0, 3.125, 0)
+		Scrolling_Dropdown.Size = UDim2.new(0, 215, 0, 125)
         Scrolling_Dropdown.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
         Scrolling_Dropdown.CanvasSize = UDim2.new(0, 0, 0, 0)
         Scrolling_Dropdown.ScrollBarThickness = 4
@@ -1390,7 +1390,7 @@ local Items = {}
 		UIPaddinglist.Name = "UIPaddinglist"
 		UIPaddinglist.Parent = Scrolling_Dropdown
 		UIPaddinglist.PaddingTop = UDim.new(0, 7)
-        UIPaddinglist.PaddingLeft = UDim.new(0, 0)
+        UIPaddinglist.PaddingLeft = UDim.new(0, 3)
 
         local Dropdown = false
         Dropdown_Tween = true
@@ -1857,5 +1857,5 @@ end
 end
     return Tab
 end
-    return Create
+return Create
 ------------------
