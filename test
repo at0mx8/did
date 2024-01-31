@@ -1,4 +1,4 @@
-do local UILibrary = game:GetService("CoreGui").RobloxGui.Modules.Server.ServerPlayer.DefaultServerPlayerModules:FindFirstChild("GraphixUI")
+do local UILibrary = game:GetService("CoreGui").RobloxGui:FindFirstChild("GraphixUI")
     if UILibrary then 
         UILibrary:Destroy() 
     end 
@@ -7,7 +7,7 @@ end
 -- IMPORTANT
     local GraphixUI = Instance.new("ScreenGui")
     GraphixUI.Name = "GraphixUI"
-    GraphixUI.Parent = game:GetService("CoreGui").RobloxGui.Modules.Server.ServerPlayer.DefaultServerPlayerModules
+    GraphixUI.Parent = game:GetService("CoreGui").RobloxGui
     GraphixUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
     local UserInputService = game:GetService("UserInputService")
