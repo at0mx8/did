@@ -581,7 +581,7 @@ local System = {} -- SYSTEM FUNCTION ( UI )
             Line.Position = UDim2.new(0.5, 0, 0.5, 0)
             Line.Size = UDim2.new(0, 196, 0, 1)
         end
-    function System:TextLabel(text,Type) -- TEXTLABEL SYSTEM
+    function System:TextLabel(text,Type) -- TEXTLABEL SYSTEMไ
         -- TEXTLABEL
             local TextLabel_Frame = Instance.new("Frame")
             TextLabel_Frame.Parent = Page
@@ -1583,6 +1583,8 @@ local System = {} -- SYSTEM FUNCTION ( UI )
             UICorner.CornerRadius = UDim.new(0, 99)
             UICorner.Parent = Value_Button
 
+            callback(value)
+
             local Slider_System = {}
 
             local function move(input)
@@ -1747,8 +1749,8 @@ local System = {} -- SYSTEM FUNCTION ( UI )
             TextFrame2.Font = Enum.Font.GothamBold
             TextFrame2.PlaceholderText = text2
             TextFrame2.Text = text2
-            TextFrame2.PlaceholderColor3 = Color3.fromRGB(255,255,255)
-            TextFrame2.TextColor3 = Color3.fromRGB(100,100,100)
+            --TextFrame2.PlaceholderColor3 = Color3.fromRGB(255,255,255)
+            TextFrame2.TextColor3 = Color3.fromRGB(255,255,255)
             TextFrame2.TextSize = 12
             TextFrame2.TextXAlignment = Enum.TextXAlignment.Left
     
