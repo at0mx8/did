@@ -1,5 +1,3 @@
-print("02 UI TEST")
-
 do local UILibrary = game:GetService("CoreGui").RobloxGui.Modules.Server.ServerPlayer.DefaultServerPlayerModules:FindFirstChild("GraphixUI")
     if UILibrary then 
         UILibrary:Destroy() 
@@ -1770,4 +1768,3 @@ end
 end
     return Create
 -------------------------
-print("02 UI TEST")
